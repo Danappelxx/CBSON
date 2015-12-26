@@ -1,5 +1,5 @@
 module CBSON [system] {
-    header "/usr/include/mongo/bson/bson.h"
-    link "mongoclient"
+    header "/usr/local/include/libbson-1.0/bson.h"
+    link "bson-1.0"
     export *
 }
